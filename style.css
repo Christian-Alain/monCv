@@ -1,0 +1,67 @@
+/* debut du css */
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.corps{
+    width: 65%;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgb(196, 196, 196), -30px 0px 40px rgb(196, 196, 196);
+    
+}
+   
+header{
+    padding-top: 10px;
+    background-color: white;
+    height: auto;
+    line-height: -50px;
+}
+.profil{
+    margin-left: 7%;
+    width: 130px;
+    height: 130px;
+}
+.post{
+    color: red;
+}
+.profil, .des{
+    display: inline-block;
+    vertical-align: middle;
+}
+.des{
+    margin-right:20% ;
+    /* margin-top: 10%; */
+}
+
+/* debut du body */
+
+/* Allignement des deux section l'un en face de l'autre */
+.section-right, .section-left{
+    display: inline-block;
+	vertical-align: top;
+}
+.section-right{
+    margin: auto;
+    width: 45%;
+}
+.section-right:hover{
+    background-color: rgb(108, 225, 222);
+}
+.section-left{
+    /* box-shadow: 30px 0px 40px rgb(196, 196, 196), -30px 0px 40px rgb(196, 196, 196); */
+    margin: auto;
+    float: right;
+    width: 50%;
+}
+.section-left h4{
+    background-color: rgb(108, 225, 222);
+}
+.pouc p, progress{
+    display: inline-block;
+	vertical-align: top;
+}
+h4{
+    text-align: center;
+    background-color: white;
+}
