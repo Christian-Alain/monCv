@@ -5,7 +5,7 @@ body{
 
 }
 .corps{
-    width: 65%;
+    width: 70%;
     margin: auto;
     box-shadow: 30px 0px 40px rgb(196, 196, 196), -30px 0px 40px rgb(196, 196, 196);
     
@@ -44,10 +44,11 @@ header{
 .section-right{
     margin: auto;
     width: 45%;
+    background-color: rgb(131, 131, 247);
 }
-.section-right:hover{
+/*.section-right:hover{
     background-color: rgb(108, 225, 222);
-}
+}*/
 .section-left{
     /* box-shadow: 30px 0px 40px rgb(196, 196, 196), -30px 0px 40px rgb(196, 196, 196); */
     margin: auto;
